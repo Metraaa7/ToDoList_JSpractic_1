@@ -1,0 +1,65 @@
+@import url("_basic.scss");
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+.button-green {
+  background-color: rgb(48, 179, 48);
+}
+.button-green:hover {
+  background-color: rgb(30, 110, 30);
+}
+.button-red {
+  background-color: rgb(182, 51, 42);
+}
+.button-red:hover {
+  background-color: rgb(83, 24, 19);
+}
+.button-aqua {
+  background-color: rgb(26, 224, 224);
+}
+.button-aqua:hover {
+  background-color: rgb(25, 147, 151);
+}
+
+.input-input {
+  border: 1px solid #121212;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.output {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.task-row {
+  display: grid;
+  grid-template-columns: 20px 1fr 100px 30px 100px;
+  grid-gap: 0 15px;
+  align-items: center;
+  background-color: rgb(43, 150, 43);
+  padding: 0 15px;
+  border-radius: 12px;
+  color: white;
+  width: 600px;
+}
+
+.task-row--checked {
+  background-color: #121212;
+  opacity: 0.3;
+}/*# sourceMappingURL=style.css.map */
